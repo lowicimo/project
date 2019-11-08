@@ -22,7 +22,7 @@ namespace Vigener
             return alphabet;
         }
 
-        // добавляет к значению словаря 1        
+        // добавляет 1 к значению словаря        
         // T- означает, что тип преременной может быть любым 
         static void SetCount<T>(T item, Dictionary<T, int> dic)
         {
